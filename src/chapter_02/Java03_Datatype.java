@@ -9,9 +9,12 @@ package chapter_02;
  * @date: 2023/3/18 13:22
  * @version: 1.0
  */
-public class java03_Datatype {
+public class Java03_Datatype {
 
     public static void main(String[] args) {
-        
+        //数据的存储单位
+        //1. 比特（bit）：数据运算的最小存储单位
+        //2. 字节（byte）：数据的最小存储单位
+
     }
 }

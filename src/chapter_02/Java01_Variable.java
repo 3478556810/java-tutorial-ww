@@ -9,7 +9,7 @@ package chapter_02;
  * @date: 2023/3/18 12:46
  * @version: 1.0
  */
-public class java01_Variable {
+public class Java01_Variable {
 
     public static void main(String[] args) {
 

@@ -1,16 +1,15 @@
 package chapter_01;
-
 /**
  * @projectName: java-tutorial
  * @package: chapter_01
- * @className: java02_HelloJava
+ * @className: java01_HelloWorld
  * @author: tsukishiro
- * @description: 你的第一个Java程序何必是”HelloWorld“
+ * @description: 你的第一个Java程序
  * @date: 2023/3/18 10:32
  * @version: 1.0
  */
-public class java02_HelloJava {
+public class Java01_HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello Genshin");
+        System.out.println("Hello world!");
     }
 }

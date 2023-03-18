@@ -9,7 +9,7 @@ package chapter_02;
  * @date: 2023/3/18 12:46
  * @version: 1.0
  */
-public class java02_identifier {
+public class Java02_identifier {
 
     public static void main(String[] args) {
 
