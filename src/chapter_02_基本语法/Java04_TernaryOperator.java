@@ -1,4 +1,4 @@
-package chapter_02;
+package chapter_02_基本语法;
 
 /**
  * @projectName: java-tutorial
