@@ -17,12 +17,12 @@ public class Java04_String {
     public static void main(String[] args) throws UnsupportedEncodingException {
         System.out.println("--------字符串创建--------");
         //字符串 字符 字节
-        //name name1和name2指向同一字符串
+        //name 和name1指向不同字符串，内容相等
         String name = "Gala";//通过字符串直接赋值
         String name1 = new String("Gala");//通过创建新对象
         String name2 = "Gala";
-        System.out.println("name 和 name2 相等：" + name.equals(name2));
-        System.out.println("name 和 name1 相等：" + name.equals(name1));
+        System.out.println("name 和 name2 内容相等：" + name.equals(name2));
+        System.out.println("name 和 name1 内容相等：" + name.equals(name1));
 
         char[] cs = {'G', 'a', 'l', 'a'};
         String name3 = new String(cs);//通过字符数组创建
@@ -81,7 +81,24 @@ public class Java04_String {
         //toLowerCase() toUpperCase() 大小写转换
         String userName="user";
         System.out.println("toUpperCase():"+userName.substring(0,1).toUpperCase().concat(userName.substring(1)));
+        //charAt()查询指定位置的字符串
+        //indexOf()用于获取子串在字符串中第一次出现的位置
+        //lastIndexOf()用于获取子串在字符串中最后一次出现的位置
+        //contains()是否包含指定子串，返回布尔类型
+        //endWith()判断字符串是否以指定子串结尾
+        //isEmpty()判断字符串是否为空
 
+        //StringBuilder :构建字符串 底层用数组拼接字符串而不是构建大量新字符串
+        StringBuilder stringBuilder=new StringBuilder();
+//        for (int i=0;i<100;i++){
+//            stringBuilder.append(i);
+//
+//        }
+        stringBuilder.append("abc");
+        System.out.println("stringBuilder:"+stringBuilder.toString());
+        System.out.println("stringBuilder.length():"+stringBuilder.length());
+        System.out.println("stringBuilder.reverse():"+stringBuilder.reverse());
+        System.out.println("stringBuilder.insert():"+stringBuilder.insert(1,"d"));
 
         System.out.println("--------字符串操作--------");
 
