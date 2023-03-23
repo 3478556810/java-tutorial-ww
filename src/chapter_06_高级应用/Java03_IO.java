@@ -1,9 +1,12 @@
 package chapter_06_高级应用;
 
+<<<<<<< HEAD
 import javax.xml.crypto.Data;
 import java.io.*;
 import java.util.Date;
 
+=======
+>>>>>>> origin/master
 /**
  * @projectName: java-tutorial
  * @package: chapter_06_高级应用
@@ -14,6 +17,7 @@ import java.util.Date;
  * @version: 1.0
  */
 public class Java03_IO {
+<<<<<<< HEAD
     public static void main(String[] args) throws IOException {
         //Java数据流转操作
         System.out.println("-------文件流------");
@@ -256,3 +260,6 @@ public class Java03_IO {
 class User3 implements Serializable{
 
 }
+=======
+}
+>>>>>>> origin/master
